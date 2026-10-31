@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cognistration-hermes",
+  "version": "1.0.0",
+  "description": "Cognistration's public MCP tools and expert listening workflows for Hermes Agent.",
+  "author": {
+    "name": "BishopTech",
+    "email": "matt@bishoptech.dev",
+    "url": "https://bishoptech.dev"
+  },
+  "homepage": "https://cognistration.com",
+  "repository": "https://github.com/mbishopfx/cognistration-hermes",
+  "license": "MIT",
+  "keywords": [
+    "cognistration",
+    "hermes-agent",
+    "mcp",
+    "listening",
+    "agent-skills"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "cognistration-hermes": {
+          "trust": "untrusted"
+        },
+        "cognistration-docs": {
+          "trust": "full"
+        }
+      }
+    }
+  }
+}
