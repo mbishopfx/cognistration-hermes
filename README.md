@@ -55,7 +55,7 @@ With a Hermes build that supports portable Agent Plugins v1 and Streamable HTTP 
 hermes plugins validate /path/to/cognistration-hermes
 ```
 
-After install, use `hermes mcp test cognistration-hermes` to check the product server connection.
+After enabling the plugin, start a chat and ask Hermes to call `get_agentic_capabilities` to verify tool discovery against the live product server. Ask it to retrieve a product reference through `cognistration-docs` to check the read-only docs connection.
 
 ## Canonical references
 
